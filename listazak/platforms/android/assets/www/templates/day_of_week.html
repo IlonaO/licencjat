@@ -1,0 +1,35 @@
+<ion-view view-title="Lista zakupów">
+  <ion-content>
+
+    <div class="list card">
+      <div class="item item-divider">
+        <h2>{{ title }}</h2>
+      </div>
+      <div class="item" ng-repeat="item in shopping_list track by $index">
+        {{ item.label }}
+        {{ item.quantity }}
+        <button class="button button-small button-assertive" ng-click="showConfirm($index)" style="float:right;">Usuń</button>
+      </div>
+    </div>
+
+    <div class="list card">      
+      <div class="item item-divider">
+        <h2>Dodaj produkt:</h2>
+      </div>
+      <div class="item item-input">
+        <span class="input-label">Nazwa:</span>
+        <input type="text" ng-model="new_item.label" placeholder="np. mleko">
+      </div>
+      <div class="item item-input">
+        <span class="input-label">Ilość:</span>
+        <input type="number" ng-model="new_item.quantity" placeholder="np. 4">
+      </div>
+        <button class="button button-small button-energized" ng-click="add(new_item)" style="width: 100%;">Dodaj</button>
+      </div>
+    </div>
+
+    <button class="button button-balanced" ng-click="save()" style="width:80%; margin-left: 10%; margin-right: 10%;">Zapisz zmiany
+    </button>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ilona/Desktop/listazak/platforms/android/build/intermediates/res/merged/debug/drawable-mdpi-v4/icon.png",
+        "source": "/home/ilona/Desktop/listazak/platforms/android/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/home/ilona/Pulpit/listazak/platforms/android/build/intermediates/res/merged/debug/drawable-mdpi-v4/icon.png",
+        "source": "/home/ilona/Pulpit/listazak/platforms/android/res/drawable-mdpi/icon.png"
+    }
+]
