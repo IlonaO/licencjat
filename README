@@ -1,1 +1,3 @@
 This is the source code of the application that I've created within my thesis.
+
+It's a simple shopping list app made with Ionic Framework. You can add, edit and delete elements in the list for each day (Monday, Tuesday and so on). Lists are saved as JSON files. There's an .apk file somewhere there, you can find it if you want ;)
